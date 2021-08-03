@@ -1,0 +1,28 @@
+{
+  "name": "assignment_project_1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development && nodemon server.js",
+    "start": "NODE_ENV=production && node server.js"
+  },
+  "keywords": [],
+  "author": "Arnab Banerjee",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "randomstring": "^1.2.1"
+  }
+}
